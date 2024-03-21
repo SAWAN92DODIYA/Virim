@@ -1,0 +1,79 @@
+
+    *{
+        /* background-image:url(https://www.freepik.com/photos/background); */
+         
+         /* background-color: rgb(240, 211, 118); */
+         /* background-image:url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg); */
+         background-repeat: no-repeat;
+         background-size: cover;
+         /* position: relative; */
+         align-items: center;
+         
+    }
+    .continer
+    {
+       
+         
+
+        
+        width: 150%;
+        height: 200px;
+        max-width: 420px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 50px 60px 70px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+
+    }
+
+    
+    #form {
+        /* height: 23px; */
+        width: 50%;
+        max-width: 420px;
+        color: black;
+        /* background-color: red ; */
+        /* align-items: center; */
+        padding: 50px 60px 70px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+
+
+    }
+    label{
+        text-decoration: double;
+    }
+    input{
+         
+        height: 30px;
+        border-radius: 12px;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px 2px rgba(48, 47, 47, 0.8);
+    }
+    input:hover{
+        cursor:text;
+        color: darkolivegreen;
+
+    }
+
+    .btn {
+        background-color: gray;
+          
+        height: 30px;
+        border-radius: 12px;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px 2px rgba(48, 47, 47, 0.8);
+
+    }
+
+    .btn:hover {
+        background-color: rgb(127, 255, 127);
+        cursor: pointer;
+    }
