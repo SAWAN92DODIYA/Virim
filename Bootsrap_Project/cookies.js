@@ -6,3 +6,4 @@ let key = prompt("enter the key")
 let value = prompt("enter the value")
 document.cookie = `${key}=${value}`
 console.log(document.cookie)
+
